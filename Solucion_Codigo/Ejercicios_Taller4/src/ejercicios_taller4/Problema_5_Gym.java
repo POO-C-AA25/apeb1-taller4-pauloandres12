@@ -9,7 +9,7 @@ public class Problema_5_Gym {
     public Problema_5_Cliente[] personas;
     public int contador;
 
-    public Problema_5_Cliente(int capacidad) {
+    public Problema_5_Gym(int capacidad) {
         personas = new Problema_5_Cliente[capacidad];
         contador = 0;
     }
